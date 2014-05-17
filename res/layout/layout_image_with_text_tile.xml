@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/image_with_text_tile_height"
+    android:layout_marginTop="@dimen/grid_layout_padding" >
+
+    <ImageView
+        android:id="@+id/image_with_text_tile_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:duplicateParentState="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/test1" />
+
+    <TextView
+        android:id="@+id/image_with_text_tile_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/image_with_text_tile_text_bg_color"
+        android:clickable="true"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/sample_text_1"
+        android:textColor="@color/image_with_text_tile_text_color"
+        android:textSize="@dimen/image_with_text_tile_text_size" />
+
+    <View
+        android:id="@+id/image_with_text_tile_clickview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="@drawable/tile_click" />
+
+</FrameLayout>

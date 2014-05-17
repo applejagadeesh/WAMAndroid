@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WAM Android</string>
+    <string name="action_search">search</string>
+    <string name="suggestion_icon_desc">suggestion icon</string>
+    <string name="search_box_hint">Search WAM</string>
+    <string-array name="side_bar_items_array">        
+        <item >Now Running</item>
+        <item >Upcoming</item>
+        <item >Videos</item>
+        <item >News</item>
+        <item >Photos</item>
+        <item >Divider</item>
+        <item >Feedback</item>
+    </string-array>
+    <string name="drawer_open">Side Bar Open</string>
+    <string name="drawer_close">Side Bar Close</string>
+    <string name="action_settings">Settings</string>
+    <string name="movies_page_title">Movies</string>
+    <string name="movie_detail_page_title">Parugu </string>
+    <string name="parugu_desc">Parugu (Telugu:పరుగు, English: Run) is a 2008 Telugu film written and directed by Bhaskar (of Bommarillu fame). Allu Arjun, Sheela, and Prakash Raj play the lead roles. Dil Raju produces the film whilst Mani Sharma scored the film soundtrack and background score</string>
+    <string name="parugu_detail">Neelakantam (Prakash Raj) is a village elder. He has two daughters Subbalakshmi (Poonam Bajwa) and Meenakshi (Sheela). The film begins with the elopement of Subbalakshmi with one Babu of the same village and he is a friend of Krishna. The entire family of Neelakantam holes up the friends of Babu (Sunil, Srinivasa Reddy), on the presumption that they helped him. Krishna (Allu Arjun) is also caught by the men of Neelakantam.</string>
+    <string name="news_video_detail">News</string>
+    <string name="sample_text_1">Pawan Kalyan is starting Jana Sena Party</string>
+    <string name="sample_news_text">Rs 120 Crore for An Animation Film?</string>
+    <string name="sample_text_2">Prabhas Bahubali Movie Trailer (2014)</string>
+    <string name="sample_text_3">Prabhas, director SS Rajamouli and other unit members of the team are currently busy with the shooting schedules of Baahhubali film, which is taking place in RFC in specially erected sets where the massive war sequences are undershoot. \n \n Take a look at video</string>
+    <string name="sample_text_6">Bahubali audio release on June 1st</string>
+    <string name="photos_category_new">Newly Added</string>
+    <string name="photos_category_popular">Most Popular</string>
+    <string name="photos_category_most_viewed">Most Viewed</string>
+    <string name="photos_category_by_name">Select by Alphabet</string>
+    <string name="news_image_detail">News</string>
+    <string name="news_text_detail">News</string>
+</resources>

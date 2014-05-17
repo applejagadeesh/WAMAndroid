@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/photos_category_new"
+        android:title="@string/photos_category_new"/>
+    <item
+        android:id="@+id/photos_category_popular"
+        android:title="@string/photos_category_popular"/>
+    <item
+        android:id="@+id/photos_category_most_viewed"
+        android:title="@string/photos_category_most_viewed"/>
+    <item
+        android:id="@+id/photos_category_by_name"
+        android:title="@string/photos_category_by_name"/>
+
+</menu>

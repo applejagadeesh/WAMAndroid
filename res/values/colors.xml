@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar">#BF000000</color>
+    <color name="movie_detail_tabbar">#80000000</color>
+    <color name="dark_grey">#6A6A6A</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="grey">#A1A1A1</color>
+    <color name="image_with_text_tile_text_bg_color">#74000000</color>
+    <color name="image_with_text_tile_text_color">#FFFFFF</color>
+    <color name="text_tile_bg">#aaa</color>
+    <color name="text_tile_text_color">#FFFFFF</color>
+    <color name="video_tile_bg">#aaa</color>
+    <color name="tile_click_color">#55000000</color>
+    <color name="video_tile_text_bg_color">#74000000</color>    
+</resources>

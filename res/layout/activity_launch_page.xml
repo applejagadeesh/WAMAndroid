@@ -1,0 +1,49 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- view pager to display carousel pages -->
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/launch_page_carousel_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- carousel indicator background strip -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp"
+        android:background="@android:color/black" />
+
+    <!-- carousel circles indicator -->
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/launch_page_carousel_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="105dp" />
+
+    <!-- strip at bottom of page which acts as background for slide up button -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/black" />
+
+    <!-- slide up button -->
+
+    <ImageButton
+        android:id="@+id/launch_page_slide_up_btn"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center"
+        android:onClick="slideUpAndOpenMoviesPage"
+        android:src="@drawable/ic_down_arrow" />
+
+</merge>

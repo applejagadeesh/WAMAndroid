@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.criticalys.wamandroid.util.CustomVerticalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_two_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/grid_two_layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/grid_layout_padding"
+        android:layout_marginLeft="@dimen/grid_layout_padding"
+        android:layout_marginRight="@dimen/grid_layout_padding" >
+
+        <LinearLayout
+            android:id="@+id/grid_two_column1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grid_two_column2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/grid_layout_padding" >
+        </LinearLayout>
+    </LinearLayout>
+
+</com.criticalys.wamandroid.util.CustomVerticalScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- movie tile layout which will be inflated while adding a new movie tile in movie container -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/movie_tile"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_marginTop="@dimen/grid_layout_padding"
+    android:background="@color/video_tile_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/movie_img"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_movie" />
+
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/movie_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="type"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/movie_meter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="WAM meter"
+        android:textSize="14sp" />
+
+</LinearLayout>
